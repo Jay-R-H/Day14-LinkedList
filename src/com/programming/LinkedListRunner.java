@@ -9,10 +9,10 @@ public class LinkedListRunner {
         MyNode<Integer> myFirstNode = new MyNode<>(56);
         MyNode<Integer> mySecondNode = new MyNode<>(30);
         MyNode<Integer> myThirdNode = new MyNode<>(70);
-        //Appending nodes.
+        //Inserting 30 in-between 56 and 70.
         linked_list.appendNode(myFirstNode);
-        linked_list.appendNode(mySecondNode);
         linked_list.appendNode(myThirdNode);
+        linked_list.insertInMiddle(myFirstNode,mySecondNode);
         //Displaying the nodes.
         linked_list.displayNode();
 

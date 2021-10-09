@@ -1,7 +1,6 @@
 package com.programming;
 
 public class MyNode<K> implements INode<K> {
-
     K key;
     INode next;
 
